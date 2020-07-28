@@ -46,3 +46,14 @@ Caused by: java.lang.ClassNotFoundException: org.example.c.C
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
 ```
+
+# Dependency Graph
+
+- `a` depends on `b` with exclusion of `c`.
+- `b` depends on `c`.
+
+```
+org.example:a:1.0-SNAPSHOT (depends on b with exclusion of c)
+ \ org.example:b:1.0-SNAPSHOT (depends on c)
+   \ org.example:b:1.0-SNAPSHOT (this is excluded because of a's exclusion element) 
+```
