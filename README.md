@@ -1,5 +1,8 @@
 # Linkage Error caused by a exclusion
 
+This project demonstrates a linkage error caused by exclusion
+element in a dependency. The invalid reference from the class B
+to class C manifests as `java.lang.NoClassDefFoundError: org/example/c/C`.
 
 ## How to run
 
