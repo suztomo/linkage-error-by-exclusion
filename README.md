@@ -49,8 +49,10 @@ Caused by: java.lang.ClassNotFoundException: org.example.c.C
 
 # Dependency Graph
 
-- `a` depends on `b` with exclusion of `c`.
-- `b` depends on `c`.
+This demo consists of 3 modules: `a`, `b`, and `c`. They have class `A`, `B`, and `C` respectively.
+
+- `a` depends on `b` with exclusion of `c`. Class `A` calls a method in class `B`.
+- `b` depends on `c`. Class `B` calls a method in class `C`.
 
 ```
 org.example:a:1.0-SNAPSHOT (depends on b with exclusion of c)
