@@ -12,6 +12,7 @@
     <module>a</module>
     <module>b</module>
     <module>c</module>
+    <module>c2</module>
   </modules>
 
   <name>linkage-error-by-exclusion</name>

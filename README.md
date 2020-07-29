@@ -34,7 +34,7 @@ java.lang.NoClassDefFoundError: org/example/c/C
     at org.example.a.A.main (A.java:33)
     at org.codehaus.mojo.exec.ExecJavaMojo$1.run (ExecJavaMojo.java:254)
     at java.lang.Thread.run (Thread.java:748)
-Caused by: java.lang.ClassNotFoundException: org.example.c.C
+Caused by: java.lang.ClassNotFoundException: org.example.c.C2
     at java.net.URLClassLoader.findClass (URLClassLoader.java:382)
     at java.lang.ClassLoader.loadClass (ClassLoader.java:424)
     at java.lang.ClassLoader.loadClass (ClassLoader.java:357)
